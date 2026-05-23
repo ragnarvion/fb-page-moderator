@@ -10,7 +10,7 @@ app = Flask(__name__)
 FB_PAGE_ACCESS_TOKEN = os.environ.get("FB_PAGE_ACCESS_TOKEN", "PALITAN_NG_DEFAULT_KUNG_TESTING")
 FB_VERIFY_TOKEN = os.environ.get("FB_VERIFY_TOKEN", "minion_secret_token_123")
 
-GRAPH_API_URL = "https://facebook.com"
+GRAPH_API_URL = "https://graph/facebook.com/v25.0"
 URL_PATTERN = re.compile(r'(https?://[^\s]+)')
 
 # 🛑 PONZI & CRYPTO SCAM RED FLAGS (+35 puntos bawat isa)
